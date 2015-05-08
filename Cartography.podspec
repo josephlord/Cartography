@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Robert Böhnke" => "robb@robb.is" }
 
-  s.ios.deployment_target = "8.0"
+  s.ios.deployment_target = "7.0"
   s.osx.deployment_target = "10.9"
 
   s.source = { :git => "https://github.com/robb/Cartography.git", :tag => "#{s.version}" }
